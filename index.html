@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="title_div">
+    <h1 class="title">Quizz</h1>
+    <label>
+        <input type="text" maxlength="32" placeholder="votre nom" id="name_input">
+        <button onclick="start()">↩</button>
+    </label>
+</div>
+<div style="position: absolute" id="test">test nom (valeur par défaut)</div>
+
+<script>
+    function start() {
+    let name = document.getElementById("name_input").value;
+    if (document.getElementById("name_input").value === "") {
+        name = "Anonyme";
+    }
+    window.location.replace("game.html?name=" + name);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+@keyframes background_anim {
+    0% {background-color: mediumpurple;}
+    100% {background-color: rebeccapurple;}
+}
+@keyframes text_anim {
+    0% {text-shadow: white -2px -2px;}
+    25% {text-shadow: white -2px 2px;}
+    50% {text-shadow: white 2px 2px;}
+    75% {text-shadow: white 2px -2px;}
+    100% {text-shadow: white -2px -2px;}
+}
+@keyframes text_hover {
+    0% {rotate: 0deg;}
+    100% {rotate: 180deg;}
+}
+@keyframes shadows {
+    0% {text-shadow: 0 0 purple, 0 0 purple, 0 0 purple, 0 0 purple;}
+    100% {text-shadow: 0 1000px purple, 1000px 0 purple, 0 -1000px purple, -1000px 0 purple;}
+}
+@keyframes suggestive {
+    0% {font-size: 200%}
+    50% {font-size: 250%}
+}
+@keyframes box_appear {
+    0% {opacity: 0;}
+    100% {opacity: 100%;}
+}
+.title_div {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.title {
+    color: black;
+    font-size: 5em;
+    animation: text_anim 1.5s infinite linear;
+    rotate: 0deg;
+    transition: rotate 1s;
+}
+.title:hover {
+    animation: text_anim 0.5s infinite linear, shadows 0.4s linear;
+    rotate: 360deg;
+    transition: rotate 1s;
+}
+.rounded_box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 90%;
+    background-color: mediumpurple;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px 10px black;
+    animation: ease-in-out box_appear 2s;
+}
+.question_box {
+    background-color: mediumpurple;
+    text-align: center;
+    padding-bottom: 2px;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 5px 5px rgb(0, 0, 0);
+}
+html {
+    background-color: mediumpurple;
+    animation: background_anim 20s infinite alternate;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+}
+label {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, 9em);
+}
+input {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: white;
+    background-color: slateblue;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+button {
+    position: absolute;
+    left: 0;
+    transform: translateY(100%);
+    border-radius: 10px 10px 10px 10px;
+    font-size: 200%;
+    transition: font-size 1s;
+}
+button:hover {
+    alignment: center;
+    font-size: 250%;
+    transition: font-size 1s;
+}
