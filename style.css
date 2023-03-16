@@ -61,6 +61,28 @@
     border-radius: 0 0 0 0;
     box-shadow: 0 5px 5px rgb(0, 0, 0);
 }
+.question {
+    color: white;
+    text-shadow: 0 0 20px black
+}
+.ans_box {
+    box-shadow: 0 0 4px 4px black;
+    border-radius: 10px 10px 10px 10px;
+    width: 40%;
+    height: 30%;
+    left: 50%;
+    margin-top: 5%;
+    transform: translate(20px);
+    color: white;
+    text-align: center;
+}
+.ans_right {
+    float: right;
+    transform: translate(-20px);
+}
+.ans_left {
+    float: left;
+}
 html {
     background-color: mediumpurple;
     animation: background_anim 20s infinite alternate;
@@ -93,4 +115,7 @@ button:hover {
     alignment: center;
     font-size: 250%;
     transition: font-size 1s;
+}
+h3 {
+
 }
