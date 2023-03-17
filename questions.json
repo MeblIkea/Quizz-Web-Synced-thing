@@ -1,16 +1,58 @@
 {
   "Que signifie NSI?": {
-    "Numérique Science Informatique":  true,
-    "Nesquik Sous la Ionosphere": false
+    "Notion Supérieur d'Informatique": false,
+    "Numérique et Sciences Informatiques": true,
+    "Nesquik Sous la Ionosphere": false,
+    "Nouvelle Support Informatique": false
   },
-  "BAba": {
-    "YH": false,
-    "E": true,
-    "Yes": true,
-    "GHdfg": false
+  "Lequel de ces objets est indispensable au bon fonctionnement de l'ordinateur ?": {
+    "Le clavier": false,
+    "Le processeur": true,
+    "La souris": false,
+    "La carte son": false
   },
-  "UJbte": {
-    "ae": false,
-    "bbe": true
+  "Pourquoi Python s'appelle t-il ainsi?": {
+    "Le créateur de Python possède un serpent (python)": false,
+    "Le créateur de Python était fan des Monty Python": true,
+    "Le créateur de Python adore la Mythologie": false
+  },
+  "Qu'est-ce que le BIOS ?": {
+    "C'est un jeu": false,
+    "C'est un périphérique": false,
+    "C'est l'outil de configuration de la carte mère": true
+  },
+  "Chercher l'intrus": {
+    "Jeanpauldubois@gmail.com": false,
+    "Jean.paul.dubois@gmail.com": false,
+    "Jean-paul-dubois@gmail.com": false,
+    "Jean paul dubois@gmail.com": true
+  },
+  "HTML est un langage de programmation.": {
+    "Vrai": false,
+    "Faux": true
+  },
+  "Chercher l'intrus (le retour...)": {
+    "www.google.it": false,
+    "www.google.com": false,
+    "ww.google.fr": true,
+    "www.google.nl": false
+  },
+  "Le créateur de linux est ": {
+    "Bill Gates": false,
+    "Steve Jobs": false,
+    "Linus Torvalds": true,
+    "Elon Musk": false
+  },
+  "Que signifie FTP?": {
+    "File Temporarily Lost": false,
+    "File Transfer Protocol": true,
+    "Faible Taux de Protection": false,
+    "Flow of Transfer with Precision": false
+  },
+  "Quel langage de programmation est le plus rapide?": {
+    "Java": false,
+    "HTML": true,
+    "C": false,
+    "Fortran": true
   }
 }
