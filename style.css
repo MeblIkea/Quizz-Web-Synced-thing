@@ -103,6 +103,7 @@
     margin-top: 3em;
     width: 40%;
     color: white;
+    overflow: auto;
     display: inline-block;
     vertical-align: middle;
     margin-left: 5%;

@@ -1,0 +1,58 @@
+{
+  "Que signifie NSI?": {
+    "Notion Supérieur d'Informatique": 0,
+    "Numérique et Sciences Informatiques": 0,
+    "Nesquik Sous la Ionosphere": 0,
+    "Nouvelle Support Informatique": 0
+  },
+  "Lequel de ces objets est indispensable au bon fonctionnement de l'ordinateur ?": {
+    "Le clavier": 0,
+    "Le processeur": 0,
+    "La souris": 0,
+    "La carte son": 0
+  },
+  "Pourquoi Python s'appelle t-il ainsi?": {
+    "Le créateur de Python possède un serpent (python)": 0,
+    "Le créateur de Python était fan des Monty Python": 0,
+    "Le créateur de Python adore la Mythologie": 0
+  },
+  "Qu'est-ce que le BIOS ?": {
+    "C'est un jeu": 0,
+    "C'est un périphérique": 0,
+    "C'est l'outil de configuration de la carte mère": 0
+  },
+  "Chercher l'intrus": {
+    "Jeanpauldubois@gmail.com": 0,
+    "Jean.paul.dubois@gmail.com": 0,
+    "Jean-paul-dubois@gmail.com": 0,
+    "Jean paul dubois@gmail.com": 0
+  },
+  "HTML est un langage de programmation.": {
+    "Vrai": 0,
+    "Faux": 0
+  },
+  "Chercher l'intrus (le retour...)": {
+    "www.google.it": 0,
+    "www.google.com": 0,
+    "ww.google.fr": 0,
+    "www.google.nl": 0
+  },
+  "Le créateur de linux est ": {
+    "Bill Gates": 0,
+    "Steve Jobs": 0,
+    "Linus Torvalds": 0,
+    "Elon Musk": 0
+  },
+  "Que signifie FTP?": {
+    "File Temporarily Lost": 0,
+    "File Transfer Protocol": 0,
+    "Faible Taux de Protection": 0,
+    "Flow of Transfer with Precision": 0
+  },
+  "Quel langage de programmation est le plus rapide?": {
+    "Java": 0,
+    "HTML": 0,
+    "C": 0,
+    "Fortran": 0
+  }
+}

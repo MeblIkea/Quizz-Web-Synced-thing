@@ -10,17 +10,34 @@ if (name === null) {
     localStorage.setItem("name", name);
 }
 
+const xhr = new XMLHttpRequest();
+const url = "http://192.168.1.201:3000/data";
+
 async function load_answers() {
     return await (await fetch('questions.json')).json();
+}
+
+function send_data(question, answer) {
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        console.log(xhr.responseText);
+      }
+    };
+    const data = {
+        name: name,
+        question: question,
+        answer: answer
+    };
+    xhr.send(JSON.stringify(data));
 }
 
 load_answers().then(function (result) {
     questions_length = Object.entries(result).length;
     next_question(Object.entries(result));
 });
-
-question_answered = function() {
-}
 
 function next_question(questions) {
     if (questions.length === 0) {
@@ -33,6 +50,7 @@ function next_question(questions) {
         div = document.createElement("div");
         div.className = "ans_box";
         div.onclick = function () {
+            send_data(questions[0][0], question);
             const elements = Array.from(document.getElementsByClassName("ans_box"));
 
                 for (let element in elements) {
