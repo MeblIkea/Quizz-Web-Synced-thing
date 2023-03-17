@@ -3,5 +3,6 @@ function start() {
     if (document.getElementById("name_input").value === "") {
         name = "Anonyme";
     }
-    window.location.replace("game.html?name=" + name);
+    localStorage.setItem("name", name);
+    window.location.replace("game.html");
 }

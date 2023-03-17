@@ -1,6 +1,16 @@
 {
-  "Que signifie NSI?": [
-    "Numérique Science Informatique",
-    "Nesquik Sous la Ionosphere"
-  ]
+  "Que signifie NSI?": {
+    "Numérique Science Informatique":  true,
+    "Nesquik Sous la Ionosphere": false
+  },
+  "BAba": {
+    "YH": false,
+    "E": true,
+    "Yes": true,
+    "GHdfg": false
+  },
+  "UJbte": {
+    "ae": false,
+    "bbe": true
+  }
 }
